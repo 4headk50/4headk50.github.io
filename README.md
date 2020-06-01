@@ -16,3 +16,14 @@ Most tags will need a closing tag for example <h1> </h1>
 <img src="" alt=""> - Inserts an image the alt is a description of the image (This will be displayed if the image 
                       cannot be loaded by the browser - it can also be used to read out what the image is)
 ```
+
+## Week 2
+
+This week I learned how use more tags and start using CSS to style a website.
+
+```html
+
+             Any content can be put inside a <div> tag
+div#NAME|c - This creates a div tag with an id of what ever the name is and with creates a closing comment with the name 
+             i.e div#content|c will create a Div with an id of content and a closing comment of content (The |c creates the closing comment)
+```
