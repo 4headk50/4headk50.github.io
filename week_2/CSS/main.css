@@ -51,9 +51,22 @@ h2 {
     font-size: 15px;
 }
 
+.main h2 {
+    text-align: left;
+    font-size: 15px;
+}
+
+.main{
+    width: 250px;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 1% 0%;
+    text-align: left; 
+    line-height: 25px;
+    box-shadow: 10px 10px 30px rgba(0,0,0, .5);
+    }
 
 
-article{
+.row{
     width: 180px;
     float: left;
     padding: 1% 1% 1% 1%;
@@ -85,10 +98,21 @@ nav ul li hr {
     height: 5px;
 }
 
-article h2 hr {
+.main h2 hr {
+	background: red;
+	width: 15%;
+	height: 5px;
+	margin: left;
+}
+
+
+.row h2 hr {
 	background: red;
 	width: 15%;
 	height: 5px;
 	margin: auto;
 }
 
+.red {
+    color: #FF0000;
+}
