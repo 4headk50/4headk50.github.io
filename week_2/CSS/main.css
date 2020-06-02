@@ -63,8 +63,13 @@ h2 {
     text-align: left; 
     line-height: 25px;
     box-shadow: 10px 10px 30px rgba(0,0,0, .5);
+    float: left;
     }
 
+.phone{
+ height: 400px;
+ padding: 30px 0px 0px 400px;
+}
 
 .row{
     width: 180px;
@@ -92,10 +97,15 @@ button {
 }
 
 nav ul li hr {
-    background: gray;
+    background: black;
     margin-top: 4px;
     width: 15px;
     height: 5px;
+}
+
+a { color: black; 
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .main h2 hr {
@@ -115,4 +125,8 @@ nav ul li hr {
 
 .red {
     color: #FF0000;
+}
+
+.button {
+    margin: 30px 2px 50px 0px;
 }
