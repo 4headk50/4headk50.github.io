@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 Form</title>
+</head>
+<body>
+
+    <h1>Student Survey</h1> 
+    <form>
+        <!-- Personal Information  -->
+
+        <p><label> Name*: </label> <input type="text" name="name"></p>
+
+        <!-- Contact Information -->   
+          <!-- pattern="[0-9]{5} [0-9]{3} [0-9]{3}" <- This is makes the user input in this format-->          
+        <p><label> Email*: </label> <input type="email" name="email" required></p>
+        <p><label for="phone"> Number*:</label> 
+            <input type="tel" id="phone" name="phone" required></p> 
+
+        <!-- Year  -->
+
+        <p><label> What year are you in*: </label>
+        <select id="year" name="year">
+            <option value="">  Select </option>
+            <option value="1">Year 1</option>
+            <option value="2">Year 2</option>
+            <option value="3">Year 3</option>
+            <option value="4">Year 4</option>
+          </select>  
+        </p>   
+        
+        <!-- Devices  -->
+
+        <p><label for="device">Which electronic devices do you use?</label> <br>
+        <input type="checkbox" name="device" value="computer"> Computer <br>
+        <input type="checkbox" name="device" value="ebook"> Ebook Reader <br>
+        <input type="checkbox" name="device" value="smart_phone">Smart Phone</p>
+    
+
+        <!-- Devices Usage -->
+        <p><label for="usage">How many hours a day do you spend using electronic devices?</label><br>
+        <input type="radio" name="useage" value="1">1 Hour <br>
+        <input type="radio" name="useage" value="2">2 Hours <br>
+        <input type="radio" name="useage" value="3+">3 Hours <br>
+        </p>
+
+        <!--  Declaration  -->     
+            
+        <label> Any other comments</label>
+        <p>
+        <textarea name="Comments" rows="5" cols="25">
+        </textarea>
+        </p>
+
+        <!-- Submit button -->            
+        
+        <input type="submit">    
+
+    </form>
+</body>
+</html>
