@@ -1,0 +1,31 @@
+input[type="text"]:invalid {
+    border: solid red;
+}
+
+input[type="text"]:valid {
+    border:solid green;
+}
+
+#travel {
+    width: 500px;
+}
+
+
+input[type="text"] {
+    float: right;
+    margin-right: 150px;
+}
+
+input[type="submit"] {
+box-shadow: 0px 5px 20px #98ff98;
+background-color : #19b14c;
+padding: 10px 10px 10px 10px;
+border-radius: 25px;
+width: 110px;
+color: white;
+font-size: 12PX;    
+border: none;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+}
