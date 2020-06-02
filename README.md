@@ -36,3 +36,9 @@ padding - Inside
 margin - Outside
 text-align - There a a few values to format content
 ```
+## Week 3
+
+
+```html
+
+```
