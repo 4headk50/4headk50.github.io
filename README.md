@@ -1,5 +1,18 @@
 # WEB TECH Practicals
 
+## Git Notes
+
+Some git commands that I use frequently
+
+```html
+git pull origin master      //pulls files from the origin
+git push origin master      // sends files to origin
+
+git add .                   // Adds all changes
+git status                  //
+git commit -m "Comments"    //
+```
+
 ## Week 1
 
 This week I learned how to create a basic HTML 5 page along with some tags
@@ -88,3 +101,31 @@ Validation
 There are other validation attribute that I will need to read up on
 
 ```
+
+## Week 4
+
+This week is an introduction to Javascript
+
+```html
+Javascript is Dynamically typed this means it will determine the type depending on the value you give to the variable
+    var  age = 39;          // is a number
+    var  name = "Kevin";    // is a string
+    var  home = true;       // is a boolean
+
+You can also use variables to do some basic maths
+    var x = 5;  
+    var y = 20;  
+    var result = x + y; // result will equal 25
+    var result = x * y; // result will equal 100 
+    var result = y/x;  //  result will equal 5
+
+/* 
+    This is a block comment
+*/
+    
+// This is a inline comment
+
+
+
+```
+
