@@ -72,7 +72,7 @@ nav a.nav_header:hover {
 }
 
 nav .current { 
-    border-bottom: 8px solid #ad2b25
+    border-bottom: 8px solid #ad2b25;
 }
   
 .content_box {
