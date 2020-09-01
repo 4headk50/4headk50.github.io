@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Vehicle Booking - Assesment</title>
+
+</head>
+<body>
+    <div class="wrapper">
+      
+        <header>
+          <div class="banner">
+            <div class="logo">
+                <div><a href="index.html"><img src="images/Logo.png" alt="HFRSlogo"></a></div>
+            </div>
+            <!-- /.logo -->
+          </div>
+          <!-- /.banner -->
+            <div class="navbar">
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href="index.html" class="nav_header "><h2>Home</h2></a></li>
+                        <li><a href="vehicle_details.html" class="nav_header "><h2>Vehicles Details</h2></a></li>
+                        <li><a href="booking_form.html" class="nav_header  current"><h2>Booking Form</h2></a></li>
+                        <li><a href="terms_and_conditions.html" class="nav_header "><h2>Terms and Conditions</h2></a></li>
+                    </ul>
+                </div>
+            </nav>
+          </div>
+          <!-- /.navbar -->
+        </header>
+
+        <div class="content">
+          <div class="content_box">
+            <h3>Booking Form</h3>
+            <form id="bookingform" class="form" onsubmit="return validateform()">
+            
+            <!-- Personal Information  -->
+    
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p><label> First Name(*): </label> <input type="text" name="fname" id="first_name" ></p>
+                <p><label> Last Name(*):   </label> <input type="text" name="lname" id="last_name" ></p>
+                <p><label> Email(*): </label> <input type="text" name="email" id="email"></p>
+                <p><label>Phone Number(*) </label> <input type="text" name="phone" id="phone"></p>
+            </fieldset>
+                
+
+            <!-- Booking Information --> 
+            <fieldset class="line">
+                <legend>Booking  Information</legend>
+                <p><label>Please give dates of when you want to book the vehicle for</label></p>
+                <br>
+                <label for="start">Start date:</label>
+                <input type="date" id="start" name="booking-start"
+                      value="2020-08-01"
+                      min="2020-08-01" max="2025-08-01">
+
+                <label for="end">End date:</label>
+                <input type="date" id="end" name="booking-end"
+                      value="2020-08-01"
+                      min="2020-08-01" max="2025-08-01">
+                
+                <p><label>Please choose Registration number of the vehicle you wish to book (Registrations removed for this assighnment)</label></p>
+                <p>
+                    <select name="vehicle_reg">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>                   
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>                   
+                    </select>
+                </p>
+
+                <p><label>Reason for booking</label></p>
+                <br>
+                <textarea name="reason" rows="5" cols="25">
+                </textarea>
+            </fieldset>   
+      
+            <!-- Submit button -->  
+            <br>          
+                <button type="submit">Submit</button>
+            </form>
+            <!-- /.booking_form -->
+            <div id="error">
+
+            </div>
+            <!-- /#error -->
+          </div>
+          <!-- /.contect_box -->
+        </div>
+        <!-- /.contect -->
+
+      <footer>
+        <div class="footer_content">
+            <div>
+              <ul>
+                <li><a href="http://www.hantsfire.gov.uk" target="_blank" title="HFRS website - opens in new tab">HFRS website</a></li>
+                <li><a href="http://www.hantsfire.gov.uk/about-us/who-we-are/fire-authority/" target="_blank" title="Fire authority - opens in new tab">Fire authority</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.footer_content -->
+      </footer>
+      <script src="scripts/booking.js"></script>
+  </div>
+  <!-- /.wrapper -->
+
+</body>
+</html>
+
