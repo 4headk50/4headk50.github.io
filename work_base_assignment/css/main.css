@@ -147,7 +147,7 @@ table {
 }
 th, td {
     border: 1px solid black;
-    padding: 20px;
+    padding: 17px;
   }
 
   table tr:nth-child(even) {
